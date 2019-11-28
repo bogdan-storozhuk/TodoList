@@ -8,8 +8,8 @@ export default class App extends Component {
     }
     render(){
         return(
-            `<div>${AppHeader()}</div>`
-            `<div>${new TodoList(this.anchor, {
+            `<div>${AppHeader()}</div>
+            <div>${new TodoList(this.anchor, {
                 listItems: [{
                     text: "My some text"
                   },
